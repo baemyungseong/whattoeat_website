@@ -1,0 +1,27 @@
+/* Read me trước khi làm css */
+/* Cấu trúc css theo thứ tự sau đây để quá trình làm được thuận tiện nhất (quan điểm cá nhân nhen ^^)
+
+a) Với cấu trúc tổng quan
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+
+b) Với đối tượng cụ thể
+1. Vị trí
+2. Kích thước
+3. Màu sắc
+4. Kiểu dáng (kiểu chữ, hình dạng,...) */
+
+
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* Thuộc tính scroll-behavior được tạo với giá trị smooth giúp trang web điều hướng mượt hơn */
+    scroll-behavior: smooth;
+    /* Thêm font cho toàn website ở đây */
+}
