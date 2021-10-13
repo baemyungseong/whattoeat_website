@@ -25,3 +25,42 @@ html {
     scroll-behavior: smooth;
     /* Thêm font cho toàn website ở đây */
 }
+
+/* Header */
+
+#header {
+
+}
+
+/* Home */
+
+#home {
+    background: url(../img/home/home.png);
+}
+
+/* Introduction */
+
+#introduction {
+    background: url(../img/introduction/introduction.png);
+
+}
+
+/* Map */
+
+#map {
+    background: url(../img/map/slider/slider1.png);
+    background: url(../img/map/slider/slider2.png);
+    background: url(../img/map/slider/slider3.png);
+}
+
+/* Food */
+
+#food {
+
+}
+
+/* Footer */
+
+#footer {
+
+}

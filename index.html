@@ -26,42 +26,233 @@
     <div id="main">
         <!-- Phần header -->
         <div id="header">
+            <!-- logo -->
+            <img src="" alt="" id="logo">
 
+            <!-- nav -->
+            <ul id="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#food">Food</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+
+            <!-- search -->
+            <div id="search">
+                <input type="text" id="search_textfield">
+                <i class="ti-search"></i>
+            </div>
         </div>
         <!-- Kết thúc phần header -->
 
 
         <!-- Phần home -->
         <div id="home">
-
+            <div class="home_text">
+                <h1 class="home_title">What to eat?</h1>
+                <h3 class="home_subtitle">The place that brings you <br> many delicious dishes in 3 regions of Vietnam</h3>
+                <p class="home_description">Vietnamese food is known for its distinct use of fresh, fragrant and aromatic flavours. There is a balance of sweet and sour, spicy and cooling, fresh and salty flavours.</p>
+            </div>
+            <button class="btn btn_discovernow"></button>
         </div>
         <!-- Kết thúc phần home -->
 
 
         <!-- Phần introduction -->
-        <div id="header">
-
+        <div id="introduction">
+            <div class="introduction_text">
+                <h1 class="intoduction_title">Introduction</h1>
+                <p class="intoduction_description">Vietnam is an agricultural country belonging to the hot country,<br> tropical monsoon region. In addition, the territory of Vietnam is divided into <br>three distinct regions: North, Central and South, along with 54 ethnic groups. It is the characteristics of geography, culture, ethnicity,<br> and climate that determine the specific characteristics of the cuisine of<br> each region - region. Every region has a typical taste. That contributes <br> to the richness and diversity of Vietnamese cuisine.
+                </p>
+            </div>
         </div>
         <!-- Kết thúc phần introduction -->
 
 
         <!-- Phần map -->
         <div id="map">
+            <h1 class="map_title">The Food Map</h1>
+            <img src="assets/img/map/detail_map/detail_map.png">
 
+            <div class="map_container map_container1">
+                <div class="line_match"></div>
+                <div class="map_container_content">
+                    <h2>Pho Ha Noi</h2>
+                    <hr>
+                    <p>Pho Ha Noi is not only a separate dish of the land of Ha Thanh, but it is also imbued with Vietnamese culinary culture, which is loved by many domestic and foreign tourists.</p>
+                </div>
+            </div>
+            <div class="map_container map_container2">
+                <div class="line_match"></div>
+                <div class="map_container_content">
+                    <h2>Bun Bo Hue</h2>
+                    <hr>
+                    <p>Bun bo Hue is a Hue specialty and a treasured asset of the old capital's soil and inhabitants. The Asian Record Organization named Hue beef noodle soup to its list of 100 Asian culinary treasures.</p>
+                </div>
+            </div>
+            <div class="map_container map_container3">
+                <div class="line_match"></div>
+                <div class="map_container_content">
+                    <h2>Broken Rice</h2>
+                    <hr>
+                    <p>Broken rice is a specialty dish of the South, especially Saigon. The plate of rice usually has grilled ribs, skin, spring rolls, and eggs. The most quintessential part of broken rice is broken seeds.</p>
+                </div>
+            </div>
         </div>
         <!-- Kết thúc phần map -->
 
 
         <!-- Phần food -->
         <div id="food">
+            <h1 class="food_title">Food</h1>
+            <button class="food_btn food_btn_left"><</button>
+            <button class="food_btn food_btn_right">></button>
+            <div class="food_card">
+                <div class="food_card_pre"></div>
+                <div class="food_card_next"></div>
+                <ul>
+                    <li food_card_1>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>Ly Quoc Su Street, Ha Noi</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Pho Ha Noi</h3> 
+                            <p class="food_card_text_description">The main components of Hanoi Pho are noodles, broth, and sliced beef or chicken. Traditional noodles for Hanoi Pho are made from rice flour, coated into thin sheets and cut into flat fibers like fettuccine. The soup for Pho is the clear broth cooked from beef bones and simmered for hours or even a day for full flavour</p>  
+                        </div>
+                        <img src="assets/img/food/phohanoi.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
 
+                    <li food_card_2>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>34 Hang Than, Ba Dinh</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Bun Cha Ha Noi</h3> 
+                            <p class="food_card_text_description">Bun cha Hanoi those who have never heard of bun cha in Hanoi is a great regret, because it seems that any citizen of the capital is absolutely in love with this specialty dish. Bun cha that is eaten at noon is really delicious. Each piece of meat is rich in spices mixed with sweet and sour fish sauce, adding a little sour food is the perfect combination for a great meal!</p>  
+                        </div>
+                        <img src="assets/img/food/buncha.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_3>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>43 Nhat Le, Hue</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Bun Bo Hue</h3> 
+                            <p class="food_card_text_description">Bun bo Hue is a Hue specialty and a treasured asset of the old capital's soil and inhabitants. The Asian Record Organization named Hue beef noodle soup to its list of 100 Asian culinary treasures, recognizing its contribution to serving world-class Vietnamese food. To be a bun bo standard to be so many integers but the way to variable not too request. The special flavor is the sweetness of the broth, the fatty taste of the pork, and the pungent flavor of the broth. Besides, beef noodle soup has the aroma of spices and herbs. A bowl of vermicelli includes: noodles, beef or pork, pork blood and crab cakes; When eating beef noodle soup, people often add some vegetables such as lettuce, bean sprouts, shells ... With a special taste, just enjoy once, surely Bun Bo Hue will make you nostalgic forever.</p>  
+                        </div>
+                        <img src="assets/img/food/bunbohue.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_4>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>66 Le Loi, Hai Phong</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Hai Phong Fish Noodle</h3> 
+                            <p class="food_card_text_description">Fish vermicelli is known as a specialty dish of Hai Phong, because even the most fastidious diners are "knocked" by it from the first moment! The broth is a harmonious combination of tube bones and tilapia, creating a sweet taste in taste. Besides, each piece of fish is fried impressively golden which is a great highlight for this dish!</p>  
+                        </div>
+                        <img src="assets/img/food/buncahaiphong.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_5>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>55 Tran Cao Van, Quang Nam</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Quang Noodle</h3> 
+                            <p class="food_card_text_description">Quang noodle is a specialty dish from the Vietnamese provinces of Quang Nam and Da Nang. Quang noodles are often produced with metal braided dough, which will then be thinned horizontally and vertically to create thin threads of around 5-10mm. Nine different raw veggies are buried beneath the noodles, giving the meals a passionate taste. Pork, shrimp, chicken, fish meat, or snakehead fish meat (sometimes with a disc) can all be found on the noodles, along with a broth made from the bones.</p>  
+                        </div>
+                        <img src="assets/img/food/miquang.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_6>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>84 Kim Long, Hue</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Pancakes</h3> 
+                            <p class="food_card_text_description">The central pancakes are about the size of an adult's hand, with little content and usually just a little shrimp, or a few slices of pork, squid... add a little price. Pancakes should not be excessively thick or thin. When the cake is poured out, it is usually soft and slightly malleable. Banh xeo is served with raw veggies and dipping sauce in cups or plates by the locals. Central pancakes are simple and rustic, but because of their appeal, they are used with a lot of fondness. Banh xeo stores can now be found in a variety of locations across the country. Banh xeo is a well-known name and one of the essential dishes when it comes to the unique characteristics of the Central area in particular and the S-shaped country in general.</p>  
+                        </div>
+                        <img src="assets/img/food/banhxeo.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_7>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>263 Tran Quang Khai, Q1</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Broken Rice</h3> 
+                            <p class="food_card_text_description">Broken rice is a specialty dish of the South, especially Saigon. The plate of rice usually has grilled ribs, skin, spring rolls, and eggs. The most quintessential part of broken rice is broken seeds. Broken rice is the first part of the rice grain, during the milling process, broken rice is broken, this is the main ingredient that cannot be replaced by any other ingredients in Saigon broken rice. Because broken seeds are very fragrant, sweet and broken rice is cooked neither too dry nor too mushy, it will be spongy so that people will never get bored.</p>  
+                        </div>
+                        <img src="assets/img/food/comtam.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_8>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>40 Vinh Khanh, Q4</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Lau Mam</h3> 
+                            <p class="food_card_text_description">Lau mam (Hot pot with fish sauce)Mam hot pot is a typical dish of the western river region in general and of Can Tho cuisine in particular. The hot pot sauce is rich and fragrant with the characteristic flavor of fish sauce mixed with the fatty taste of coconut milk and the sweet taste of bone broth. Inside the hot pot is bacon, fish, squid, shrimp and eggplant, accompanied by optional vegetables such as water spinach, water lily.</p>  
+                        </div>
+                        <img src="assets/img/food/laumam.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+
+                    <li food_card_9>
+                        <p class="food_card_location"><i class="ti-location-pin"></i>A65 Nguyen Trai, Q1</p>
+                        <i class="ti-minus"></i>
+                        <div class="food_card_text">
+                            <h3 class=food_card_text_title>Nam Vang noodles</h3> 
+                            <p class="food_card_text_description">Nam Vang noodle soup is a noodle dish originating from Cambodia by Khmer processing, the main ingredient is dried noodle soup, the main broth is minced meat, pork intestines cooked with, then boiled the noodles with the broth and then cooked. Additional ingredients such as bean sprouts, chives, minced meat and pork intestines are added. Depending on the taste of each person, pork belly can be replaced with shrimp, crab, squid... Unlike Chinese noodle soup and Vietnamese noodle soup My Tho, Nam Vang noodle soup has the sweet taste of meat broth. minced quite special.</p>  
+                        </div>
+                        <img src="assets/img/food/hutieunamvang.jpg">
+                        <button class="food_card_btn">View more!</button>
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- Kết thúc phần food -->
-
-        
+    
         <!-- Phần footer -->
         <div id="footer">
-
+            <img src="assets/img/logo/logo_black.png">
+            <div class="footer_text">
+                <h1>What to eat?</h1>
+                <h3>"Enchancing the quintessence of VietNamese cuisine"</h3>
+            </div>
+            <div id="footer_sendemail">
+                <input type="text" id="footer_textfield" placeholder="Type your email">
+                <input type="submit" id="footer_btn_send">
+            </div> 
+            <div class="footer_social_icon">
+                <i class="ti-instagram"></i>
+                <i class="ti-twitter"></i>
+                <i class="ti-facebook"></i>
+            </div>
+            <div class="footer_information">
+                <div class="footer_information_about">
+                    <h3>About</h3>
+                    <p>This site is a digital food publication based in Vietnam. You can read about all things related to food. </p>
+                </div>
+                <div class="footer_information_contactinfo">
+                    <h3>Contact Info</h3>
+                    <p><i class="ti-mobile"></i>+84 748382893</p>
+                    <p><i class="ti-location-arrow"></i>whattoeat@support.co</p>
+                    <p><i class="ti-map-alt"></i>143 Beaver St, Waltham, MA</p>
+                </div>
+                <div class="footer_information_page">
+                    <h3>Page</h3>
+                    <ul id="footer_information_page_detail">
+                        <li>Home</li>
+                        <li>Introdution</li>
+                        <li>Map</li>
+                        <li>Food</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- Kết thúc phần footer -->
     </div>
