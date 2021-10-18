@@ -89,17 +89,18 @@ ul {
  
 #home {
     width: 100%;
+    height: 100vh;
     background: url(../img/home/home.png);
     background-size: cover;
     margin: 0px;
-    padding: 150px 150px 235px 100px;
+    padding-left: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
  
 .home_title{
-    margin-top: 80px;
+    margin-top: 200px;
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 15px;
